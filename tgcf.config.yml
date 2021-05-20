@@ -1,10 +1,11 @@
 admins: []
 forwards:
 - dest:
-  - -100e432432
+  - -1001265168488
   end: null
-  offset: '6667'              #message Id
-  source: -10034234
+  offset: '0'
+  source: -1001217854936
+live:
   delete_on_edit: null
   delete_sync: false
 past:
@@ -13,13 +14,8 @@ plugins:
   filter:
     files:
       whitelist:
-      - audio
-      - video
-      - contact
       - document
-      - nofile
-      - photo
-show_forwarded_from: false
+   show_forwarded_from: false
 
       # valid types are 
       # audio,gif,video,video_note,sticker,contact,photo,document,nofile
