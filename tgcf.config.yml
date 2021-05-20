@@ -16,10 +16,9 @@ plugins:
       whitelist:
       - document
    show_forwarded_from: false
-plugins:
   replace:
     text:
-      @Movie_wrd: @OB_MOVIEZGROUP
+      @Movie_wrd : @OB_MOVIEZGROUP
      
 
       # valid types are 
