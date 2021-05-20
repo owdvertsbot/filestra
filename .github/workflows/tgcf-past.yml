@@ -18,13 +18,13 @@ jobs:
           
       - uses: ./.github/actions/tgcf-past
         env:
-          API_ID: ${{ 5143452 }}
-          API_HASH: ${{ 812116832d1493247c60f4d1b347 }}
-          SESSION_STRING: ${{ 1BVtsOIwBuwZJCEevZrxTDBej8d3RnyCDy5aWCmsX9UIOBVzVVTkwWfsnsKDwMMg2Q1gYgZf1bl_mxrQp_OR-YuxbzHlPGeSyFWWASmtT2jsdgndjR0kPnbZo_WNXNgWfKJJ1kl7aX8s7kUmi0l2oCwTIGcOpSOK1hmQbIk1OpJIYq2UN46jAXfuI9reqolx9AEy7DX1yADIr09uu5q7x-PNS1ksFdt6YEUFLmx6X8pxRxmulHpsrSNvIwij7S7YvN9HCJ5oQx7uC6qNZURXeUPAuXAMIimDk1EuK4TXQa0vvrdl-AOSB9qrJSubBQ6tpwIWJw-vFSWnwG9m_pnHKguS4OOJ-A8c= }}
+          API_ID: $ 5143452
+          API_HASH: $ 812116832d1493247c60f4d1b347
+          SESSION_STRING: $ 1BVtsOIwBuwZJCEevZrxTDBej8d3RnyCDy5aWCmsX9UIOBVzVVTkwWfsnsKDwMMg2Q1gYgZf1bl_mxrQp_OR-YuxbzHlPGeSyFWWASmtT2jsdgndjR0kPnbZo_WNXNgWfKJJ1kl7aX8s7kUmi0l2oCwTIGcOpSOK1hmQbIk1OpJIYq2UN46jAXfuI9reqolx9AEy7DX1yADIr09uu5q7x-PNS1ksFdt6YEUFLmx6X8pxRxmulHpsrSNvIwij7S7YvN9HCJ5oQx7uC6qNZURXeUPAuXAMIimDk1EuK4TXQa0vvrdl-AOSB9qrJSubBQ6tpwIWJw-vFSWnwG9m_pnHKguS4OOJ-A8c=
 
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
-          github_token: ${{ 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 }}
+          github_token: $ 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
           branch: main
           message: push files changed
