@@ -16,6 +16,11 @@ plugins:
       whitelist:
       - document
    show_forwarded_from: false
+plugins:
+  replace:
+    text:
+      @Movie_wrd: @OB_MOVIEZGROUP
+     
 
       # valid types are 
       # audio,gif,video,video_note,sticker,contact,photo,document,nofile
