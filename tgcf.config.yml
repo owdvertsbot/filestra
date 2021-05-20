@@ -21,5 +21,4 @@ plugins:
       @Movie_wrd : @OB_MOVIEZGROUP
      
 
-      # valid types are 
-      # audio,gif,video,video_note,sticker,contact,photo,document,nofile
+      
